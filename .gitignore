@@ -1,0 +1,12 @@
+# Object files #
+################
+*.o
+
+# Executable #
+##############
+yersin
+
+# Large files  #
+################
+test
+testStandford

@@ -1,0 +1,20 @@
+# nombre de tour
+NB_TOUR 10
+
+# nombre d'individus
+NB_INDIVIDUS 50
+
+# topologie 1 = CLIQUE / 2 = ANNEAU
+TOPOLOGIE 1
+
+# nombre de patient zero
+NB_PATIENT_ZERO 2
+
+# probabilité de contaminé des individus sain
+PROBA_C 0.5
+
+# probabilité de devenir resistant
+PROBA_R 0.3
+
+# probabilité de passer de resistant à sain
+PROBA_S 0.7

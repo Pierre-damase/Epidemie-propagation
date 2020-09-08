@@ -1,0 +1,68 @@
+# nombre de tour
+NB_TOUR 100
+
+# nombre d'individus
+NB_INDIVIDUS 8000
+
+# topologie 0 = CLIQUE / 1 = ANNEAU / 2 = Erdos-Rényi / 3 = Stanford / 4 = PRAIRIE / 5 = Watts-Strogatz / 6 = Barabasi-Albert
+TOPOLOGIE 0
+
+# Probabilité de devenir immunisé après vaccination
+PROBA_VACCINATION 0.1
+
+# Jour de vaccination : seul jour de sauvetage
+JOUR_VACCINATION 0
+
+# nombre de patient zero
+NB_PATIENT_ZERO 4
+
+# probabilité de contaminé des individus sain
+PROBA_C 0.95
+
+# probabilité de devenir resistant
+PROBA_R 0.1
+
+# probabilité de passer de resistant à sain
+PROBA_S 0.9
+
+# probabilité maximale de trépasser dans d'atroces souffrances
+PROBA_M 0.8
+
+# nombre de personne resistante à la maladie au début de la simulation
+NB_RES_DEBUT 1
+
+
+## Erdos-Rényi ##
+# Probabilité p d'existence de chaque arrète
+PROBA_EXISTENCE_ARETE 0.2
+
+
+## Stanford ##
+# Fichier stanford à lire
+STANFORD_FILE facebook_combined.txt
+
+
+## Prairie aléatoire ##
+# Taille n de al prairie aléatoire (carré de taille n*n)
+PRAIRIE_COTE 95
+
+# Rayon ri d'un individu compris entre rimax et rimin
+RAYON_MAX 1.75
+
+RAYON_MIN 0.5
+
+# Augmentation du rayon des morts dans le modèle de la prairie
+RAYON_MORT 0.0
+
+
+## Watts-Strogatz ##
+# Probabilité p de rebranchement
+PROBA_REBRANCHEMENT 0.5
+
+# k tours de rebranchement
+REBRANCHEMENT 10
+
+
+## Barabasi-Albert
+# Nombre final n de sommet : taille <= n 
+BARABASI_SOMMET 270
